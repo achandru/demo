@@ -1,0 +1,68 @@
+
+    <nav class="navbar navbar-default">
+    <div class='container'>
+
+        <div class="navbar-header">
+            <ul class="nav navbar-nav navbar-right">
+      
+              <li class='nav-item'>
+                <a class='nav-link' routerLink="/"><span style="color:Black;"><i class="glyphicon glyphicon-home">Home</i></span></a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-link' routerLink="/shop"><span style="color:Black;">&#xe87a; Shop</span></a>
+              </li>
+              <li class='nav-item'>
+                  <a class='nav-link' routerLink="/featured"><span style="color:Black;"><i class="glyphicon glyphicon-star">Featured</i></span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right">
+      
+              <li class='nav-item'>
+                  <form class="nav-link">
+                      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                  </form>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-link' routerLink="/shop"><span style="color:Black;">Login</span></a>
+              </li>
+              <li class='nav-item'>
+                  <form class="nav-link" >
+                      <input class="join-control mr-sm-2" type="text" placeholder="Join">
+                  </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <body >
+        <div class="col-md-12">
+          <div class="navbar-headers" >
+            <ul class="nav navbar-nav navbar-left">
+      
+              <li class='nav-item'>
+                <a class='nav-link' routerLink="/"><span style="color:Black;">Trending</span></a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-link' routerLink="/shop"><span style="color:Black;">New</span></a>
+              </li>
+              <li class='nav-item'>
+                  <a class='nav-link' routerLink="/featured"><span style="color:Black;">Most popular</span></a>
+                </li>
+            </ul>
+        </div>  
+      </div> 
+      </body>
+
+    <div class="col-md-4" *ngFor="let data of httpdata">
+    <div class="panel panel-default">
+      <div class="panel-body">
+          <img src="{{data.product_image}}" height="420px" width="380px">
+
+      </div>
+    </div>
+    </div>
+

@@ -1,0 +1,41 @@
+        
+        .form-control{
+            height: 26px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: whitesmoke;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            margin-top: 12px;
+        
+        }
+
+        .join-control{
+            height: 30px;
+            width: 70px;
+            text-align: center;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: white;
+            background-color: rgb(24, 228, 201);
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            margin-top: 10px;
+    
+        }
+
+        .container{
+            background-color:white;
+            margin-right: inherit;
+            margin-left: inherit;
+            font-size: 120%;
+        }
+
+
+ 
+
